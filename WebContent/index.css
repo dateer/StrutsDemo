@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+
+body{
+	width:985px;
+	margin:0 auto;
+	padding:0;
+}
+	
+h1{
+	text-align:center;
+	margin-top:20px;
+	margin-buttom:10px;
+}
+
+.dg_margin{
+	height:800px;
+	margin:0 auto;
+}
+
+#Student{
+	width:950px;
+	height:800px;
+}
+
+#tb{
+/* 	width:940px; */
+}
+
+.window_table{
+	width:522px;
+	margin:30px auto;
+}
+
+.tdwidth{
+	text-align:right;
+}
+
+.textarea_css {
+    width:500px;
+    border: 1px solid #a0b3d6;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 2;
+    outline: none;
+    background-color: #fff;
+    resize: none;
+    margin-top:0px;
+    max-height:500px;
+}

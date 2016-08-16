@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+
+<struts>
+
+	<package name="default" extends="json-default" namespace="/">
+		
+		<action name="getStudentInfo" class="com.koal.action.Actions" method="getStudentInfo">
+			<result type="json">
+				<param name="root">jsObj</param>
+			</result>
+		</action>
+		
+		<action name="getSearch_specialty" class="com.koal.action.Actions" method="getSearch_specialty">
+			<result type="json">
+				<param name="root">jsArr</param>
+			</result>
+		</action>
+		
+		<action name="getSpecialty" class="com.koal.action.Actions" method="getSpecialty">
+			<result type="json">
+				<param name="root">jsArr</param>
+			</result>
+		</action>		
+		
+		<action name="AddStudent" class="com.koal.action.Actions" method="AddStudent">
+			<result type="json">
+				<param name="root">msg</param>
+			</result>
+		</action>
+		
+		
+		<action name="EditStudent" class="com.koal.action.Actions" method="EditStudent">
+			<result type="json">
+				<param name="root">msg</param>
+			</result>
+		</action>
+		
+		<action name="deleteStudent" class="com.koal.action.Actions" method="deleteStudent">
+			<result type="json">
+				<param name="root">msg</param>
+			</result>
+		</action>
+		
+		<action name="fuzzyQuery" class="com.koal.action.Actions" method="fuzzyQuery">
+			<result type="json">
+				<param name="root">jsObj</param>
+			</result>
+		</action>
+		
+	</package>
+
+</struts>
