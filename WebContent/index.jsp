@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<title>学生信息管理</title>  
+<title>学生信息管理</title>   
 	
 	<!-- 	加载jQuery库 -->
 	<script type="text/javascript" src="jquery-easyui-1.3.3/jquery.min.js"></script>
